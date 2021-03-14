@@ -3,11 +3,11 @@ import 'dart:typed_data';
 import 'package:flutter/material.dart';
 
 // ignore: uri_does_not_exist
-import 'platform/stub_svg.dart'
+import 'platform/stub_svg.dart';
     // ignore: uri_does_not_exist
-    if (dart.library.io) 'platform/io_svg.dart'
+    // if (dart.library.io) 'platform/io_svg.dart'
     // ignore: uri_does_not_exist
-    if (dart.library.html) 'platform/browser_svg.dart';
+    // if (dart.library.html) 'platform/browser_svg.dart';
 
 class WebsafeSvg {
   static Widget asset(
